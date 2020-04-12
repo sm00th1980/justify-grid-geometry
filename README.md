@@ -2,7 +2,7 @@
 
 ## Example
 
-![Video](https://media.giphy.com/media/hXDq4mON2ta36gKoUY/giphy.gif)
+![Video](example/video.gif)
 
 Use:
 
