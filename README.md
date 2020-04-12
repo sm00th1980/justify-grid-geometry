@@ -27,4 +27,20 @@ const tiles = [
 ];
 
 const output = getJustifyGridGeometry(CONTAINER_WIDTH, tiles);
+// [
+//   [
+//     {
+//       height: 165.33333333333331,
+//       width: 165.33333333333331,
+//     },
+//     {
+//       height: 165.33333333333331,
+//       width: 165.33333333333331,
+//     },
+//     {
+//       height: 165.33333333333331,
+//       width: 165.33333333333331,
+//     },
+//   ],
+// ];
 ```
