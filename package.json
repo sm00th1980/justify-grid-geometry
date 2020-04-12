@@ -4,7 +4,8 @@
   "description": "Calculate justified photo grid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch",
+    "lint": "eslint --fix --ext .js src/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,23 @@
   "bugs": {
     "url": "https://github.com/sm00th1980/justify-grid-geometry/issues"
   },
-  "homepage": "https://github.com/sm00th1980/justify-grid-geometry#readme"
+  "homepage": "https://github.com/sm00th1980/justify-grid-geometry#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^25.3.0",
+    "prettier": "^2.0.4"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
 }
