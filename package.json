@@ -1,0 +1,19 @@
+{
+  "name": "justify-grid-geometry",
+  "version": "1.0.0",
+  "description": "Calculate justified photo grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sm00th1980/justify-grid-geometry.git"
+  },
+  "author": "Ruslan Deyarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sm00th1980/justify-grid-geometry/issues"
+  },
+  "homepage": "https://github.com/sm00th1980/justify-grid-geometry#readme"
+}
